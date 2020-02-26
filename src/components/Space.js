@@ -38,7 +38,7 @@ const Space = () => {
   return (
     <SpaceSelector>
       <span>
-        <Headline>Welcome to interspace.</Headline>
+        <Headline>Welcome to Open Climate Policy Lab.</Headline>
         <SpaceInfo>
           You're in the <CurrentSpace>{currentSpace}</CurrentSpace>!
         </SpaceInfo>
