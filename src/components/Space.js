@@ -52,9 +52,9 @@ const Space = () => {
           src="map-liminal2.png"
           className="image-map"
           alt="map"
-          onClick={() => setSpace("yard")}
+          onClick={() => setSpace("storytelling space")}
         />
-        <span className="defaultRoomName">Yard</span>
+        <span className="defaultRoomName">Storytelling space</span>
         <div
           className="click-zone a"
           data-zone="Living Room"

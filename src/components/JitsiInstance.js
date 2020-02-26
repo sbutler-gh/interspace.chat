@@ -19,7 +19,7 @@ const JitsiInstance = () => {
   const height = 600;
 
   useEffect(() => {
-    const domain = "meet.jit.si/interspace";
+    const domain = "meet.jit.si/openclimate";
     const options = {
       roomName: currentSpace,
       width: width,
