@@ -52,37 +52,37 @@ const Space = () => {
           src="map-liminal2.png"
           className="image-map"
           alt="map"
-          onClick={() => setSpace("storytelling space")}
+          onClick={() => setSpace("lab")}
         />
-        <span className="defaultRoomName">Storytelling space</span>
+        <span className="defaultRoomName">lab</span>
         <div
           className="click-zone a"
           data-zone="Living Room"
-          onClick={() => setSpace("kitchen")}
+          onClick={() => setSpace("fact-checking")}
         >
-          <span className="roomName">Kitchen</span>
+          <span className="roomName">Fact-Checking</span>
         </div>
         <div
           className="click-zone b"
           data-zone="Dining Room"
-          onClick={() => setSpace("living room")}
+          onClick={() => setSpace("open data")}
         >
-          <span className="roomName">Living Room</span>
+          <span className="roomName">Open Data</span>
         </div>
         <div
           className="click-zone c"
           data-zone="Sunset Patio"
-          onClick={() => setSpace("patio")}
+          onClick={() => setSpace("Storytelling")}
         >
-          <span className="roomName">Patio</span>
+          <span className="roomName">Storytelling</span>
         </div>
         <div
           className="click-zone d"
           data-zone="Portal Zone"
-          onClick={() => setSpace("poOOOooOortal")}
+          onClick={() => setSpace("think tank")}
         >
           <span className="roomName" style={portalStyle}>
-            Portal
+            Think Tank
           </span>
         </div>
       </div>
